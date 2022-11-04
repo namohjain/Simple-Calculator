@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  background-image: url("neon_bg_calci.jpg");
+}
+
+.button{
+  width: 66px;
+  padding: 20px;
+  margin: 0 3px;
+  border: 2px solid rgb(14, 4, 4);
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: rgb(53, 63, 77);
+}
+
+.row{
+  margin: 8px 0;
+}
+
+#input{
+  width: 251px;
+  font-size: 20px;
+    margin: 0;
+    padding: 10px 20px;
+    border: 2px solid rgb(18, 6, 6);
+    border-radius: 15px;
+}
+
+#output{
+    outline: none;
+    resize: none;
+    width: 250px;
+    height: 20px;
+    font-size: 20px;
+    line-height: 1;
+    margin-top: 6px;
+    padding: 10px 20px;
+    border: 2px solid rgb(13, 3, 3);
+    border-radius: 10px;
+  }
+.text-center{
+    color: crimson;
+    text-align: center;
+  } 
+.bg-red{
+    background: red;
+  }
+.mx-auto{
+    margin: auto;
+  }
+.flex{
+    display:flex;
+  } 
+.flex-col{
+    flex-direction: column;
+  }
+.items-center{
+    align-items: center;
+  }
+  
+  #box{
+    background-color: rgb(95, 92, 92);
+    width: 350px;
+    /* position: fixed;
+    left: 455px; */
+    padding: 30px 2px 20px 25px;
+  }
+  
+  .box1{
+    padding: 14px 0px 14px 14px;
+    background-color: rgb(53, 63, 77);
+    width: 310px;
+  }
+  
+  #box2{
+    padding: 14px 0px 14px 30px;
+    background-color: rgb(53, 63, 77);
+    width: 350px;
+    margin: 5px 0px 50px 441px ;
+    /* position: fixed;
+    right: 0; */
+    /* box-sizing: border-box; */
+  }
+  
+  footer{
+    background: #111;
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+    /* position: fixed;
+    left: 0; */
+    bottom: 1px;
+    width: 1240px;
+    margin-top: 10px;
+  }
+ 
+  footer span a{
+    color: crimson;
+    text-decoration: none;
+ }
+ 
+ footer span a:hover{
+    color: yellow;
+ }
